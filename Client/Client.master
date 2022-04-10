@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Client.master.cs" Inherits="Client_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    
+	<!-- Meta tags -->
+	<title>Siya Construction</title>
+	<meta name="keywords" content="Exclusive Business a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+	<link rel="stylesheet" href="../css/chocolat.css" type="text/css">
+	<link rel="stylesheet" href="../css/font-awesome.css">
+	<link rel="stylesheet" href="../css/style.css">
+    <link href="../css/logo-nav.css" rel="stylesheet" />
+
+	
+	<!-- scripts -->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/easyResponsiveTabs.js"></script>
+	<script src="../js/numscroller-1.0.js"></script>
+	<script type="text/javascript" src="../js/jquery.chocolat.js"></script>
+      <script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js" ></script> 
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+
+
+
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+</head>
+<body>
+    <!-- Navigation -->
+       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+       <a href="#" class="navbar-brand w3-logo"><span class="br"><span class="big">S</span>IYA</span><span class="bb"><span class="big">C</span>ONSTRUCTION</span></a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../img/coollogo_com-153381028.png" alt="" class="auto-style1">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right w3ls-nav">
+                    <li>
+                        <a href="home.aspx">Home</a>
+                    </li>
+                         <li><a href="requirements.aspx">Requirements</a></li>
+                            <li><a href="viewquotation.aspx">Quotation</a></li>                  
+                    
+                      <li><a href="vwwrkstatus.aspx"> Work Status</a></li>
+                     
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Files
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            
+                           
+                            
+                            <li><a href="uploadfiles.aspx">Upload</a></li>
+                            <li><a href="viewfiles.aspx">View</a></li>
+
+
+         
+                        </ul>
+                      </li>
+                       <li><a href="feedback.aspx">Feedback</a></li>
+                    
+                                             <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Complaint
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="complaint.aspx">Send</a></li>
+                           <li><a href="complaintreply.aspx">Replies</a></li>
+                            
+                          
+                        
+
+                                  
+                        </ul>
+                      </li>
+                 
+                     
+
+                     
+                                                
+                       <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Settings
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="changepassword.aspx">ChangePassword</a></li>
+                          <li><a href="../Logout.aspx">Logout
+                              </a></li>
+         
+                        </ul>
+                      </li>
+                  
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<!-- //Navigation -->
+
+
+
+    <form id="form1" runat="server">
+    <div>
+
+         
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+
+</html>
